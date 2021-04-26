@@ -1,0 +1,108 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: url(../img/I5.jpg);
+	background-position: center;
+	font-family: helvetica;
+	background-size: cover;
+	max-width: 1440px;
+	margin: auto;
+}
+
+.fondo{
+	max-width: 1024px;
+	height: 100vh;
+	margin: auto;
+}
+
+header .logo{
+	display: block;
+	padding: 5px;
+	width: 90%;
+}
+
+header .logo-img img{
+	max-width: 170px;
+}
+
+.contenido{
+	display: inline-flex;
+	margin-top: 18%;
+	color: #fff;
+}
+
+.contenido .registro{
+	display: inline-block;
+	padding: 10px;
+}
+
+.contenido .registro .texto{
+	width: 300px;
+}
+
+.contenido .registro .texto p{
+	display: block;
+}
+
+.contenido .registro .texto p:nth-child(1){
+	font-size: 32px;
+	padding-bottom: 20px;
+}
+
+.contenido .registro .texto p:nth-child(2){
+	font-size: 16px;
+	font-weight: unset;
+	font-family: sans-serif;
+}
+
+.contenido .registro form{
+	padding-top: 15px;
+}
+
+.contenido .registro form.formulario input.enter-form{
+	border-bottom-left-radius: 3px;
+	border-top-left-radius: 3px;
+	border: 1px solid #fff;
+	display: inline-block;
+	padding: 10px;
+}
+
+.contenido .registro form.formulario button.btn-enviar{
+	border-bottom-right-radius: 3px;
+	border-top-right-radius: 3px;
+	border: 1px solid #000;
+	display: inline-block;
+	margin-left: -4px;
+	background: #000;
+	font-size: 12px;
+	padding: 11px;
+	color: #fff;
+
+	/*#00AC29 #01B22B*/
+}
+
+.contenido .informacion{
+	display: inline-flex;
+	margin-left: 100px;
+	margin-top: 10px;
+}
+
+.contenido .cuadros{
+	margin: 0px 10px; 
+}
+
+.contenido .texto-imagen{
+	max-width: 200px;
+}
+
+.contenido .montaña p, .cuadros p, .balon p{
+	font-size: 14px;
+}
+
+.contenido img{
+	max-width: 150px;
+	height: 100px;
+}
